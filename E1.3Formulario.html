@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E1: Formulario</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <div>
+        <form action="">
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre">
+            </div>
+            <br>
+            <div>
+                <label for="Apellido">Apellidos:</label>
+                <input type="text" id="Apellido">
+            </div>
+            <br>
+            <!-- <div>
+                <span> Sex: </span>
+                <label for="man">hombre </label>
+                <input type="radio" name="gender" value="hombre" id="man">
+                <label for="woman">mujer </label>
+                <input type="radio" name="gender" value="mujer" id="woman">   
+               </div> -->
+            <div>
+                <span>Sexo:</span>
+                <input type="radio" name="genero" value="hombre" id="hombre">
+                <label for="hombre">hombre</label>
+                <input type="radio" name="genero" value="mujer" id="mujer">
+                <label for="mujer">mujer</label>
+            </div>
+            <br>
+            <div>
+                <label for="Correo">Correo:</label>
+                <input type="email" id="Correo">
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="novedades"checked>
+                <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="condiciones">
+                <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
